@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowTech Plumbers | Online Enquiry</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo"><strong>FlowTech Plumbers</strong></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Online Enquiry</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Request a Service</h1>
+        <p>Please fill out the form below, and a FlowTech representative will contact you shortly.</p>
+
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="your@email.com">
+            </div>
+
+            <div class="form-group">
+                <label for="service">Required Service:</label>
+                <select id="service" name="service" required>
+                    <option value="">-- Please Select --</option>
+                    <option value="leak">Leak Detection</option>
+                    <option value="geyser">Geyser Repair</option>
+                    <option value="blocked">Blocked Drains</option>
+                    <option value="other">Other Inquiry</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Details of the Issue:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Describe the plumbing problem..."></textarea>
+            </div>
+
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 FlowTech Plumbers. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+    
