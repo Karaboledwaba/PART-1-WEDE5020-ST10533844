@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open FlowTech Plumbers.html",
+            "file": "c:\\Users\\kledw\\OneDrive\\Documents\\school work\\PART 1 WEDE5020 ST10533844\\FlowTech Plumbers.html"
+        }
+    ]
+}
