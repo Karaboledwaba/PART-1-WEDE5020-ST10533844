@@ -1,9 +1,11 @@
 # FlowTech Plumbers - Web Development Project
 
 ## Project Overview
+
 This repository contains Part 1 of the website design application deployment built specifically for FlowTech Plumbers.
 
 ## Objectives
+
 - Launch an interactive mobile-responsive interface.
 - Deploy an online inquiry capture framework module.
 
